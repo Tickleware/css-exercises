@@ -1,0 +1,10 @@
+.container .text {
+    
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+/* In this exercise the "container" contained the "text" class which indicated there would need to be a
+space inbetween ".container" and ".text". Whereas in the previous lesson there need not be a space due to
+both classes being in the same contained space. */
