@@ -3,6 +3,9 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
@@ -12,4 +15,8 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
-}
+  }
+  /* Had issues finding the solution to this equation. I then opened Google Chrome Dev tools and looked at the css styling for the 
+  ".container" and found that it said that they "Display:block" was fixed and if I wanted to use "justify-content" and "align-items"
+  I needed to switch the display to flex. With the lessons from the Odin Project, I was able to discover that I needed to put
+  "display:flex" in the ".container" to get the result that was desired. */
