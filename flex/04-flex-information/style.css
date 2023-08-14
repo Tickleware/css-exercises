@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -10,7 +11,35 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
 }
+
+.container  {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  
+}
+
+.content {
+  max-width: 200px;
+}
+
+/* This took me a long time to figure out. My first thought was to separate the images and the text into two separate
+containers which worked, except for the text was still colliding with each other. I did not think to use "max-width"
+in that instance but if I had I believed it would have worked just fine, but it would have been more work than needed
+to get the same result.
+
+In the second instance, I google searched many possible solutions and got a little further in changing the html only
+a little, in opposed to my first iteration, but again I was stumped at figuring out the text colliding with each other.
+
+I, then, peeked at the solution, finding my solution completely different, I undid all changes I made and restarted from 
+scratch after closing the solution. Now, with my google searches asking the correct questions, I was able to get a lot closer
+than before. Similar with the last lesson, however, I forgot the existence of gap and started changing the margins of every 
+single image and text box, which did not work.
+
+I found the "max-width" option in a google search and that help with the text and then saw the README.md requesting a 52px
+"gap" between each item, and then I remember the "Gap" option. Overall, very tricky and a good lesson.*/
 
 /* do not edit this footer */
 .footer {
